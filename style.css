@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+ .col-lg-4 .di{
+    /* transition: 2s; */
+    transition: transform 0.5s ease;
+}
+.col-lg-4 .di:hover{
+    background-color: rgb(242, 245, 245) !important;
+    /* transform: scaleX(0.5s) */
+    transform: scaleY(1.2)
+}   
+
